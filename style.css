@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+body {
+  background-color: #dde6ed;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(166, 223, 221);
+  margin-left: 15px;
+  height: auto;
+  width: 500px;
+}
+
+.section {
+  margin: 10px;
+  border: 2px solid rgb(90, 156, 169);
+}
+
+.main-title {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  color: #526d82;
+}
+
+#hero {
+  color: #526d82;
+}
+
+#heroContent {
+  color: #526d82;
+}
+
+.nature {
+  text-decoration: none;
+  color: #526d82;
+}
+
+.sky {
+  text-decoration: none;
+  color: #dde6ed;
+}
+
+.nav-link {
+  font-size: 20px;
+}
