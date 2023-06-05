@@ -38,6 +38,7 @@ const defaultChange = function () {
 changeBtn.addEventListener('click', function () {
   if (changeBtn.classList.contains('btn-light')) {
     // Dark theme
+    changeBtn.textContent = 'Dark';
     changeBtn.classList.remove('btn-light');
     changeBtn.classList.add('btn-dark');
     bodyChange.backgroundColor = '#DDE6ED';
@@ -51,6 +52,7 @@ changeBtn.addEventListener('click', function () {
     defaultChange();
   } else {
     // White theme
+    changeBtn.textContent = 'Light';
     changeBtn.classList.remove('btn-dark');
     changeBtn.classList.add('btn-light');
     bodyChange.backgroundColor = '#27374D';
